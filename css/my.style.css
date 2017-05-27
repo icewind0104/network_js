@@ -95,3 +95,46 @@ td span{
 a.button:hover{
     text-decoration: none;
 }
+
+#departments a{
+    text-decoration: none;
+}
+
+#departments ul{
+    padding-left: 10px;
+    margin: 0;
+}
+
+#departments li{
+    padding: 5px;
+    list-style-type: none;
+    color: #000;
+}
+
+#departments li i{
+    margin: 0 0 0 5px;
+}
+
+#departments li span.hidden{
+    visibility: hidden;
+    margin: 0 0 0 10px;
+}
+
+#departments li span.visible{
+    visibility: visible;
+    margin: 0 0 0 10px;
+}
+
+#departments li.select{
+    background-color: #eee;
+}
+
+#departments li.active{
+    background-color: #00a5e6;
+    color: #fff;
+}
+
+.uk-nav-side>li>a.disabled{
+    color: #bbb;
+    cursor: default;
+}
