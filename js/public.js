@@ -36,7 +36,7 @@ $('document').ready(function(){
             var target = this
             if($(this).val().length > 0) {
                 var name = encodeURI($(this).val());
-                ajax_get(`/check_name/${name}/`, function(r){
+                ajax_get(`${MOUNT_POINT}/check_name/${name}/`, function(r){
                     if(r === 'OK'){
                         mark_correct(target);
                     } else {
